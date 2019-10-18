@@ -37,10 +37,6 @@
 		D08D7053230AB5630001B1D5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D08D7056230AB5630001B1D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D08D7058230AB5630001B1D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D08D7061230AB5640001B1D5 /* stopwatchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stopwatchTests.swift; sourceTree = "<group>"; };
-		D08D7063230AB5640001B1D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D08D706C230AB5640001B1D5 /* stopwatchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stopwatchUITests.swift; sourceTree = "<group>"; };
-		D08D706E230AB5640001B1D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D08D707A230AB67E0001B1D5 /* StopWatch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StopWatch.swift; sourceTree = "<group>"; };
 		D0FD931D2316DBB90059F658 /* stopwatchMacOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = stopwatchMacOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0FD931F2316DBB90059F658 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -50,10 +46,6 @@
 		D0FD932C2316DBBF0059F658 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D0FD932E2316DBBF0059F658 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D0FD932F2316DBBF0059F658 /* stopwatchMacOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = stopwatchMacOS.entitlements; sourceTree = "<group>"; };
-		D0FD93382316DBBF0059F658 /* stopwatchMacOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stopwatchMacOSTests.swift; sourceTree = "<group>"; };
-		D0FD933A2316DBBF0059F658 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D0FD93432316DBBF0059F658 /* stopwatchMacOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stopwatchMacOSUITests.swift; sourceTree = "<group>"; };
-		D0FD93452316DBBF0059F658 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,11 +70,7 @@
 			isa = PBXGroup;
 			children = (
 				D08D7046230AB55C0001B1D5 /* stopwatch */,
-				D08D7060230AB5640001B1D5 /* stopwatchTests */,
-				D08D706B230AB5640001B1D5 /* stopwatchUITests */,
 				D0FD931E2316DBB90059F658 /* stopwatchMacOS */,
-				D0FD93372316DBBF0059F658 /* stopwatchMacOSTests */,
-				D0FD93422316DBBF0059F658 /* stopwatchMacOSUITests */,
 				D08D7045230AB55C0001B1D5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -121,24 +109,6 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		D08D7060230AB5640001B1D5 /* stopwatchTests */ = {
-			isa = PBXGroup;
-			children = (
-				D08D7061230AB5640001B1D5 /* stopwatchTests.swift */,
-				D08D7063230AB5640001B1D5 /* Info.plist */,
-			);
-			path = stopwatchTests;
-			sourceTree = "<group>";
-		};
-		D08D706B230AB5640001B1D5 /* stopwatchUITests */ = {
-			isa = PBXGroup;
-			children = (
-				D08D706C230AB5640001B1D5 /* stopwatchUITests.swift */,
-				D08D706E230AB5640001B1D5 /* Info.plist */,
-			);
-			path = stopwatchUITests;
-			sourceTree = "<group>";
-		};
 		D0FD931E2316DBB90059F658 /* stopwatchMacOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -159,24 +129,6 @@
 				D0FD93292316DBBF0059F658 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		D0FD93372316DBBF0059F658 /* stopwatchMacOSTests */ = {
-			isa = PBXGroup;
-			children = (
-				D0FD93382316DBBF0059F658 /* stopwatchMacOSTests.swift */,
-				D0FD933A2316DBBF0059F658 /* Info.plist */,
-			);
-			path = stopwatchMacOSTests;
-			sourceTree = "<group>";
-		};
-		D0FD93422316DBBF0059F658 /* stopwatchMacOSUITests */ = {
-			isa = PBXGroup;
-			children = (
-				D0FD93432316DBBF0059F658 /* stopwatchMacOSUITests.swift */,
-				D0FD93452316DBBF0059F658 /* Info.plist */,
-			);
-			path = stopwatchMacOSUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
